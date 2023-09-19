@@ -3,11 +3,13 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main() {
-    std::string command;
+    string command;
     while (true) {
-        std::cout << "Enter command: ";
-        std::getline(std::cin, command);
+        cout << "Enter command: ";
+        getline(cin, command);
         if (command == "exit") {
             break;
         }
@@ -18,7 +20,7 @@ int main() {
         } else if (pid > 0) {
             wait(NULL);
         } else {
-            std::cerr << "Fork failed\n";
+            cerr << "Fork failed" << endl;
             return 1;
         }
     }
