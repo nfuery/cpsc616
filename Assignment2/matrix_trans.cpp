@@ -26,7 +26,10 @@ void parallel(vector<vector<int>> mat1, vector<vector<int>> mat2, int N){
     #pragma omp parallel for
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            mat2[j][i] = mat1[i][j];
+            #pragma omp critical
+            {
+                mat2[j][i] = mat1[i][j];
+            }
         }
     }
 
