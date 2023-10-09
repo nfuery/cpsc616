@@ -1,25 +1,9 @@
 # CS 616: High Performance Computing
 Fall 2023
+Noah Fuery
+Professor Rene German
 Assignment 2: Fun with OpenMP
 October 8th 2023
-
-Table of Contents:
-1. Introduction
-2. Matrix Multiplication
-   2.1 Serial Implementation
-   2.2 Parallel Implementation
-   2.3 Performance Analysis
-3. Matrix Transposition
-   3.1 Serial Implementation
-   3.2 Parallel Implementation
-   3.3 Performance Analysis
-4. Overall Performance Analysis
-5. Conclusion
-6. Appendices
-   6.1 Source Code
-   6.2 Graphs
-   6.3 README for Compilation and Execution
-7. References
 
 ----------------
 ## 1. Introduction
