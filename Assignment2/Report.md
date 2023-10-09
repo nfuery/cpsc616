@@ -18,7 +18,9 @@ This assignment seeks to utilize parallel programming through the use of OpenMP 
 
 2.3 Performance Analysis
    Present the results of your experiments, including execution times, speedup, and efficiency for different scenarios. Discuss the impact of workload distribution and scheduling on performance.
-   ![Threads vs Efficiency](https://github.com/nfuery/cpsc616/tree/main/Assignment2/Assets/multThreadsvsEff.png)
+   ![Threads vs Efficiency](Assets/multThreadsvsEff.png)
+   ![mSUPandEFF](Assets/multSpeedUpandEffi.png)
+   ![mSvP](Assets/multSeriesvsParallel.png)
 
 -------------------------
 ## 3. Matrix Transposition
