@@ -21,12 +21,12 @@ Table of Contents:
    6.3 README for Compilation and Execution
 7. References
 
-1. Introduction
 ----------------
+# 1. Introduction
 This assignment seeks to utilize parallel programming through the use of OpenMP to demonstrate the performance benefits, as well as the potential drawbacks, when compared to serial programming. Two different programs were created, one performing matrix multiplication and one performing matrix transposition.
 
-2. Matrix Multiplication
 -------------------------
+# 2. Matrix Multiplication
 2.1 Serial Implementation
    The serial matrix multiplication code defines a function serialMult that performs matrix multiplication sequentially. It uses three nested loops to iterate through the rows of mat1, the columns of mat2, and the common dimension k. For each element (i, j) in the result matrix, it accumulates the result of the dot product of the corresponding rows and columns from mat1 and mat2.
 
@@ -37,9 +37,8 @@ This assignment seeks to utilize parallel programming through the use of OpenMP 
    Present the results of your experiments, including execution times, speedup, and efficiency for different scenarios. Discuss the impact of workload distribution and scheduling on performance.
    ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-
-3. Matrix Transposition
 -------------------------
+# 3. Matrix Transposition
 3.1 Serial Implementation
    Describe the implementation of the serial matrix transposition algorithm.
 
@@ -49,17 +48,10 @@ This assignment seeks to utilize parallel programming through the use of OpenMP 
 3.3 Performance Analysis
    Present the results of your experiments for matrix transposition, similar to section 2.3.
 
-4. Overall Performance Analysis
 -------------------------------
+# 4. Overall Performance Analysis
 Provide an overall analysis of both matrix multiplication and transposition. Discuss common trends and insights from your experiments.
 
-5. Conclusion
 -------------
+# 5. Conclusion
 Summarize your findings, lessons learned, and conclusions. Discuss the significance of the performance analysis results.
-
-6. Appendices
--------------
-Include appendices with the following sections:
-6.1 Source Code: Attach the source code files for both serial and parallel implementations.
-6.2 Graphs: Attach graphs showing execution times, speedup, and efficiency.
-6.3 README for Compilation and Execution: Include instructions for compiling and running the code.
