@@ -1,9 +1,8 @@
-# CS 616: High Performance Computing
-Fall 2023
-Noah Fuery
-Professor Rene German
-Assignment 2: Fun with OpenMP
-October 8th 2023
+# Assignment 2: Fun with OpenMP
+* CS 616: High Performance Computing
+* Noah Fuery
+* Professor Rene German
+* October 8th 2023
 
 ----------------
 ## 1. Introduction
@@ -19,7 +18,7 @@ This assignment seeks to utilize parallel programming through the use of OpenMP 
 
 2.3 Performance Analysis
    Present the results of your experiments, including execution times, speedup, and efficiency for different scenarios. Discuss the impact of workload distribution and scheduling on performance.
-   ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+   ![Threads vs Efficiency](https://github.com/nfuery/cpsc616/tree/main/Assignment2/Assets/multThreadsvsEff.png)
 
 -------------------------
 ## 3. Matrix Transposition
