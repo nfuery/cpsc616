@@ -56,62 +56,13 @@ int main() {
 
     vector<vector<int>> mat1(N, vector<int>(N, 1));
 
-    omp_set_num_threads(1);
     // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(2);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(3);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(4);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(5);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(6);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(7);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    omp_set_num_threads(8);
-    // Serial function call
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
-    parallelTranspose(mat1, N);
+    serialTranspose(mat1, N)
 
     // Parallel function call
-    // parallel(mat1, N);
+    parallelTranspose(mat1, N);
 
-    // Print the result (for verification)
-    // for (int i = 0; i < N; ++i) {
-    //     for (int j = 0; j < N; ++j) {
-    //         cout << mat1[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
-    // for (int i = 0; i < N; ++i) {
-    //     for (int j = 0; j < N; ++j) {
-    //         cout << mat2[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+
+
     return 0;
 }

@@ -4,6 +4,12 @@
 * Professor Rene German
 * October 8th 2023
 
+## Compiling and Running Instructions
+g++ matrix_mult.cpp -fopenmp -o mult.out
+./mult.out
+g++ matrix_trans.cpp -fopenmp -o trans.out
+./trans.out
+
 ----------------
 ## 1. Introduction
 This assignment seeks to utilize parallel programming through the use of OpenMP to demonstrate the performance benefits, as well as the potential drawbacks when compared to serial programming. Two different programs were created, one performing matrix multiplication and one performing matrix transposition.
