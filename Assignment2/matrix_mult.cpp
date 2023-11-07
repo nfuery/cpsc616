@@ -48,7 +48,7 @@ int main() {
     vector<vector<int>> mat2(N, vector<int>(N, 2));
     vector<vector<int>> result(N, vector<int>(N, 0));
 
-    omp_set_num_threads(8); // Was changed from 1 to 8 in order to alter num of threads parameter in testing
+    // omp_set_num_threads(8); // Was changed from 1 to 8 in order to alter num of threads parameter in testing
 
     serialMult(mat1, mat2, result, N);
     parallelMult(mat1, mat2, result, N);
